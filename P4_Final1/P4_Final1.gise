@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="P4_Final1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dm_4k_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="im_4k_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mips_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test0_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test0_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test0_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test0_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="wholeTest0_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="wholeTest0_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="wholeTest0_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447847408" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1447847408">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447847409" xil_pn:in_ck="6960039627855151547" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1447847408">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="control/ctrl.v"/>
+      <outfile xil_pn:name="datapath/alu.v"/>
+      <outfile xil_pn:name="datapath/dm.v"/>
+      <outfile xil_pn:name="datapath/ext.v"/>
+      <outfile xil_pn:name="datapath/gpr.v"/>
+      <outfile xil_pn:name="datapath/im.v"/>
+      <outfile xil_pn:name="datapath/mp32.v"/>
+      <outfile xil_pn:name="datapath/mp5.v"/>
+      <outfile xil_pn:name="datapath/npc.v"/>
+      <outfile xil_pn:name="datapath/pc.v"/>
+      <outfile xil_pn:name="mips.v"/>
+      <outfile xil_pn:name="tb/mp32_MemReg.v"/>
+      <outfile xil_pn:name="tb/test0.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447847409" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7301035236251495847" xil_pn:start_ts="1447847409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447847409" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5086740977855175987" xil_pn:start_ts="1447847409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447847409" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6825801120149235046" xil_pn:start_ts="1447847409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447847409" xil_pn:in_ck="6960039627855151547" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1447847409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="control/ctrl.v"/>
+      <outfile xil_pn:name="datapath/alu.v"/>
+      <outfile xil_pn:name="datapath/dm.v"/>
+      <outfile xil_pn:name="datapath/ext.v"/>
+      <outfile xil_pn:name="datapath/gpr.v"/>
+      <outfile xil_pn:name="datapath/im.v"/>
+      <outfile xil_pn:name="datapath/mp32.v"/>
+      <outfile xil_pn:name="datapath/mp5.v"/>
+      <outfile xil_pn:name="datapath/npc.v"/>
+      <outfile xil_pn:name="datapath/pc.v"/>
+      <outfile xil_pn:name="mips.v"/>
+      <outfile xil_pn:name="tb/mp32_MemReg.v"/>
+      <outfile xil_pn:name="tb/test0.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447847415" xil_pn:in_ck="6960039627855151547" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4723256607727789419" xil_pn:start_ts="1447847409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test0_beh.prj"/>
+      <outfile xil_pn:name="test0_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1447854199" xil_pn:in_ck="8124269585238815453" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3998248533829136334" xil_pn:start_ts="1447854198">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test0_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

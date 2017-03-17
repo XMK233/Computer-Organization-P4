@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o G:/ISE Files/P4_Final1/test0_isim_beh.exe -prj G:/ISE Files/P4_Final1/test0_beh.prj work.test0 work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/ISE Files/P4_Final1/tb/mp32_MemReg.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/pc.v" into library work
+WARNING:HDLCompiler:751 - "G:/ISE Files/P4_Final1/datapath/pc.v" Line 27: Redeclaration of ansi port pc is not allowed
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/npc.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/mp5.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/mp32.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/im.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/gpr.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/ext.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/dm.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/datapath/alu.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/control/ctrl.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/mips.v" into library work
+Analyzing Verilog file "G:/ISE Files/P4_Final1/tb/test0.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "G:/ISE Files/P4_Final1/mips.v" Line 114: Size mismatch in connection of port <RData2>. Formal port size is 32-bit while actual signal size is 33-bit.
+WARNING:HDLCompiler:1007 - "G:/ISE Files/P4_Final1/mips.v" Line 114: Element index 32 into RData2 is out of bounds
+Completed static elaboration
+Fuse Memory Usage: 155780 KB
+Fuse CPU Usage: 936 ms
+Compiling module PC
+Compiling module im_4k
+Compiling module NPC
+Compiling module Controller
+Compiling module MP5
+Compiling module GPR
+Compiling module EXT
+Compiling module MX32
+Compiling module ALU
+Compiling module dm_4k
+Compiling module MP32_MemReg
+Compiling module mips
+Compiling module test0
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable G:/ISE Files/P4_Final1/test0_isim_beh.exe
+Fuse Memory Usage: 160972 KB
+Fuse CPU Usage: 1250 ms

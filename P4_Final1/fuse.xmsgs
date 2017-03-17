@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"G:/ISE Files/P4_Final1/datapath/pc.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">pc</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"G:/ISE Files/P4_Final1/mips.v" Line 114: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RData2</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">33</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"G:/ISE Files/P4_Final1/mips.v" Line 114: Element index <arg fmt="%d" index="1">32</arg> into <arg fmt="%s" index="2">RData2</arg> is out of bounds
+</msg>
+
+</messages>
+
